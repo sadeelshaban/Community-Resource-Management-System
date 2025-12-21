@@ -2,7 +2,7 @@
 
 A comprehensive Java-based application designed to manage community aid resources, beneficiaries, volunteers, and aid distributions for nonprofit organizations.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -14,7 +14,7 @@ A comprehensive Java-based application designed to manage community aid resource
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 
-## 🎯 Overview
+## Overview
 
 The Community Resource Management System (CRMS) is a desktop application that helps nonprofit organizations efficiently manage:
 - **Beneficiaries**: People in need who can request aid
@@ -26,7 +26,7 @@ The system is built in two stages:
 - **Stage 1**: Core business logic and data models
 - **Stage 2**: Graphical User Interface (GUI) using Java Swing
 
-## ✨ Features
+## Features
 
 ### User Management
 - Register and manage beneficiaries
@@ -64,7 +64,7 @@ The system is built in two stages:
   - Distributing aid
   - Viewing distribution reports
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 CRMS/
@@ -103,7 +103,7 @@ CRMS/
 └── README.md               # This file
 ```
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Java**: Core programming language
 - **Java Swing**: GUI framework
@@ -111,7 +111,7 @@ CRMS/
 - **Java Streams API**: For efficient data filtering and processing
 - **Object-Oriented Programming**: Inheritance, polymorphism, abstraction
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -144,7 +144,7 @@ CRMS/
    - Register a new user or login with existing credentials
    - Navigate through the menu based on your user role
 
-## 🏗 Architecture
+## Architecture
 
 ### Design Patterns
 
@@ -181,7 +181,7 @@ The system uses **ArrayList** for dynamic data management:
      - `Medicine` (expirable)
      - `FemaleHygienePackage` (non-expirable)
 
-## 📚 Key Classes
+## Key Classes
 
 ### Stage1 Package
 
@@ -227,7 +227,7 @@ The system uses **ArrayList** for dynamic data management:
 - **DistributeAidScreen**: Distribute specific items
 - **DistributionReportScreen**: View distribution history
 
-## 💻 Usage
+## Usage
 
 ### For Beneficiaries
 
@@ -253,7 +253,7 @@ The system uses **ArrayList** for dynamic data management:
 - **Search Functionality**: Search aid items by name/keyword
 - **Priority Levels**: Aid items have priority levels (1-10)
 
-## 🎨 Screenshots
+## Screenshots
 
 The application features a modern, clean interface with:
 - Intuitive navigation
@@ -264,40 +264,36 @@ The application features a modern, clean interface with:
 ## 🔧 Recent Improvements
 
 ### Refactoring (Latest Update)
-- ✅ Converted all arrays to **ArrayList** for dynamic data management
-- ✅ Implemented **Java Streams API** for efficient data processing
-- ✅ Added null-safety checks throughout the codebase
-- ✅ Improved `assignAidToBeneficiary()` to handle multiple requests
-- ✅ Enhanced code quality with modern Java features
-- ✅ Updated all return types from arrays to `List<T>`
+- Converted all arrays to **ArrayList** for dynamic data management
+- Implemented **Java Streams API** for efficient data processing
+- Added null-safety checks throughout the codebase
+- Improved `assignAidToBeneficiary()` to handle multiple requests
+- Enhanced code quality with modern Java features
+- Updated all return types from arrays to `List<T>`
 
-## 📝 Notes
+## Notes
 
 - The system uses in-memory storage (data is lost when application closes)
 - For production use, consider adding database persistence
 - All dates use `java.util.Date` for compatibility
 - The system supports multiple user roles with different access levels
 
-## 👥 User Roles
+## User Roles
 
 1. **Beneficiary**: Can view and request aid
 2. **Volunteer**: Can deliver aid and view distributions
 3. **Organization Staff**: Full access to all features
 
-## 🔐 Security Notes
+## Security Notes
 
 - Passwords are stored in plain text (for educational purposes)
 - In production, implement proper password hashing
 - Consider adding role-based access control (RBAC)
 
-## 📄 License
+## License
 
 This project is for educational purposes.
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational project. Feel free to fork and enhance!
-
----
-
-**Built with ❤️ using Java and Java Swing**
